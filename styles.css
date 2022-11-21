@@ -1,1 +1,153 @@
-/* Write your CSS here! */
+#dallas_img {
+  width: 1000px;
+  height: 450px;
+}
+#lake_of_the_ozarks {
+  width: 1000px;
+  height: 450px;
+}
+.denver-Colorado {
+  width: 1000px;
+  height: 450px;
+}
+#gulf_shores {
+  width: 1000px;
+  height: 450px;
+}
+
+body {
+  width: 100%;
+
+  margin: 0 auto;
+  background-color: tan;
+  font-size: 62.5%;
+}
+.vacation {
+  flex-wrap: wrap;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  padding: 16px;
+  margin-top: 16px;
+}
+.vacation-header {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  text-align: left;
+  font-weight: 500;
+  font-family: monospace;
+}
+.vacation-details {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.75;
+
+  width: 100%;
+}
+.vacation-image-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.vacation-image {
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+header,
+main,
+footer {
+  background-color: #ddd;
+  font-size: 1.6em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link:hover {
+  border-bottom: 1px solid #fff;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  padding: 8px;
+  background-color: #3a405a;
+  color: #fff;
+}
+.nav:before {
+  content: '';
+  display: block;
+}
+.nav {
+  position: relative;
+  min-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.nav-item {
+  font-size: 18px;
+  padding: 8px;
+  text-decoration: none;
+  list-style: none;
+}
+.nav-header {
+  font-size: 24px;
+  font-weight: 500;
+}
+h1 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  padding: 0.675em 0 0.675em 0.675em;
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+  padding: 0;
+}
+
+p {
+  padding: 1.25em;
+}
+
+footer {
+  text-align: center;
+  padding: 2em;
+}
+
+footer p {
+  display: inline-block;
+}
+
+body {
+  font-size: 90%;
+}
