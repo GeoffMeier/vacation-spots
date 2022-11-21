@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head id="mainHeading">
     <title>My Favorite Vacation Destinations</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
@@ -18,38 +18,42 @@
       </nav>
     </div>
     <main>
-      <h2 id="LO">
-        Lake Of The Ozarks
-        <span style="font-size: 40px">&#128031;</span>
-      </h2>
-      <p>
-        Ever since I was a kid my family and I have always loved going to the Lake Of The Ozarks. Spending time with
-        each other and enjoying a nice day in the water always brings out the best side of my family.We all always enjoy
-        all the water activities we get to experience while we are down there too. Whether its driving the jetski around
-        or getting absolutely launched off the tube by my uncle. This trip never disappoints and is always a great time
-        for everyone.
-      </p>
-      <div>
-        <img id="lake_of_the_ozarks" src="images/DJI_004422222.jpeg" alt="Lake of the Ozarks" />
-      </div>
-
-      <h2 id="Dallas">
-        Dallas, Texas
-        <span style="font-size: 31px">&#127944;</span>
-      </h2>
-      <p>
-        My Aunt and Uncle moved to Dallas with their kids back in 2006. Ever since they moved, my family will visit them
-        down there from time to time. The city of Dallas is always so fun to see and we always have something to do
-        whether its going to the Cowboys game or just exploring the city. My uncle is a huge fan of the Cowboys so we
-        always end up going to a game when we visit.
-      </p>
-      <div>
-        <img
-          id="dallas_img"
-          src="http://cdn.cnn.com/cnnnext/dam/assets/220228082058-dallas-tv-show-southfork-ranch-j-r-ewing-texas-richard-quest-spc-00012817.png"
-          alt="The City Of Dallas"
-        />
-      </div>
+      <article class="lake">
+        <h2 class="lake-vacation" id="LO">
+          Lake Of The Ozarks
+          <span style="font-size: 40px">&#128031;</span>
+        </h2>
+        <p id="testP" class="funParagraph">
+          Ever since I was a kid my family and I have always loved going to the Lake Of The Ozarks. Spending time with
+          each other and enjoying a nice day in the water always brings out the best side of my family.We all always
+          enjoy all the water activities we get to experience while we are down there too. Whether its driving the
+          jetski around or getting absolutely launched off the tube by my uncle. This trip never disappoints and is
+          always a great time for everyone.
+        </p>
+        <div class="lake-image-wrapp">
+          <img class="lake-image" id="lake_of_the_ozarks" src="images/DJI_004422222.jpeg" alt="Lake of the Ozarks" />
+        </div>
+      </article>
+      <article class="texas">
+        <h2 class="texas-header" id="Dallas">
+          Dallas, Texas
+          <span style="font-size: 31px">&#127944;</span>
+        </h2>
+        <p class="texas-details">
+          My Aunt and Uncle moved to Dallas with their kids back in 2006. Ever since they moved, my family will visit
+          them down there from time to time. The city of Dallas is always so fun to see and we always have something to
+          do whether its going to the Cowboys game or just exploring the city. My uncle is a huge fan of the Cowboys so
+          we always end up going to a game when we visit.
+        </p>
+        <div class="texas-image-wrapper">
+          <img
+            class="texas-image"
+            id="dallas_img"
+            src="images/220228082058-dallas-tv-show-southfork-ranch-j-r-ewing-texas-richard-quest-spc-00012817.jpeg"
+            alt="The City Of Dallas"
+          />
+        </div>
+      </article>
       <article class="vacation">
         <h2 class="vacation-header" id="Gulf">
           Gulf Shores, Alabama
@@ -61,30 +65,23 @@
           very welcoming.
         </p>
         <div class="vacation-image-wrapper">
-          <img
-            class="vacation-image"
-            id="gulf_shores"
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/f1/f4/e5/gulf-state-park-fis.jpg?w=700&h=500&s=1"
-            alt="Gulf Shores beach"
-          />
+          <img class="vacation-image" id="gulf_shores" src="images/gulf-state-park-fis.jpeg" alt="Gulf Shores beach" />
         </div>
       </article>
-      <h2 id="D">
-        Denver, Colorado
-        <span style="font-size: 70px">&#9975;</span>
-      </h2>
-      <p>
-        The Mountains are always a site to see. Even though I've only visited Denver a hand full of times I can
-        confidently say that Denver has the best views I have ever seen. The mountains and the city both are very cool
-        places and theres always something new to experience when your there.
-      </p>
-      <div>
-        <img
-          class="denver-Colorado"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQArUUdZgZ2sWX10QINdaJTtfTcQTNEVMu-1A&usqp=CAU"
-          alt="denver"
-        />
-      </div>
+      <article class="bama">
+        <h2 class="bama-header" id="D">
+          Denver, Colorado
+          <span style="font-size: 70px">&#9975;</span>
+        </h2>
+        <p class="bama-details">
+          The Mountains are always a site to see. Even though I've only visited Denver a hand full of times I can
+          confidently say that Denver has the best views I have ever seen. The mountains and the city both are very cool
+          places and theres always something new to experience when your there.
+        </p>
+        <div class="bama-image-wrapper">
+          <img class="bama-image" id="denver-Colorado" src="images/images.jpeg" alt="denver" />
+        </div>
+      </article>
     </main>
     <footer>
       <h3>Honorable Mentions</h3>

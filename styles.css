@@ -6,7 +6,7 @@
   width: 1000px;
   height: 450px;
 }
-.denver-Colorado {
+#denver-Colorado {
   width: 1000px;
   height: 450px;
 }
@@ -18,11 +18,45 @@
 body {
   width: 100%;
 
-  margin: 0 auto;
+  margin: 8px;
+  display: block;
   background-color: tan;
   font-size: 62.5%;
 }
+#mainHeading {
+  color: red;
+}
 .vacation {
+  flex-wrap: wrap;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  padding: 16px;
+  margin-top: 16px;
+}
+.lake {
+  flex-wrap: wrap;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  padding: 16px;
+  margin-top: 16px;
+}
+.texas {
+  flex-wrap: wrap;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  padding: 16px;
+  margin-top: 16px;
+}
+.bama {
   flex-wrap: wrap;
   width: 50%;
   display: flex;
@@ -39,7 +73,50 @@ body {
   font-weight: 500;
   font-family: monospace;
 }
+.lake-vacation {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  text-align: left;
+  font-weight: 500;
+  font-family: monospace;
+}
+.texas-header {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  text-align: left;
+  font-weight: 500;
+  font-family: monospace;
+}
+.bama-header {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  text-align: left;
+  font-weight: 500;
+  font-family: monospace;
+}
 .vacation-details {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.75;
+
+  width: 100%;
+}
+.funParagraph {
+  color: green;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.75;
+
+  width: 100%;
+}
+.texas-details {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.75;
+
+  width: 100%;
+}
+.bama-details {
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.75;
@@ -52,7 +129,37 @@ body {
   justify-content: center;
   align-items: center;
 }
+.lake-image-wrapp {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.texas-image-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.bama-image-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 .vacation-image {
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+.lake-image {
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+.texas-image {
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+.bama-image {
   border-radius: 20px;
   margin-bottom: 16px;
 }
